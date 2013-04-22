@@ -1,0 +1,925 @@
+<Document>
+<Winery>
+  <Winery_Name>a'Maurice Cellars</Winery_Name>
+  <Address>178 Vineyard Lane</Address>
+  <City>Walla Walla </City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.087231</Latitude>
+  <Longitude>-118.201802</Longitude>
+  <Phone_Number>5095225444</Phone_Number>
+  <Website_URL>http://amaurice.com/</Website_URL>
+  <Twitter/>
+  <Facebook/>
+</Winery>
+<Winery>
+  <Winery_Name>Abeja</Winery_Name>
+  <Address>2014 Mill Creek Road </Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0873729</Latitude>
+  <Longitude>-118.22673</Longitude>
+  <Phone_Number>5095267400</Phone_Number>
+  <Website_URL>http://www.abeja.net/</Website_URL>
+  <Twitter/>
+  <Facebook/>
+</Winery>
+<Winery>
+  <Winery_Name>Adamant Cellars</Winery_Name>
+  <Address>525 Cessna Avenue</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude/>
+  <Longitude/>
+  <Phone_Number>5095294161</Phone_Number>
+  <Website_URL>http://www.adamantcellars.com/</Website_URL>
+  <Twitter>http://twitter.com/adamantcellars</Twitter>
+  <Facebook/>
+</Winery>
+<Winery>
+  <Winery_Name>Amavi</Winery_Name>
+  <Address>3796 Peppers Bridge Road</Address>
+  <City>Walla Walla </City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.01615</Latitude>
+  <Longitude>-118.38378</Longitude>
+  <Phone_Number>5095253541</Phone_Number>
+  <Website_URL>http://www.amavicellars.com/</Website_URL>
+  <Twitter>http://twitter.com/AmaviCellars</Twitter>
+  <Facebook/>
+</Winery>
+<Winery>
+  <Winery_Name>Ash Hollow Winery</Winery_Name>
+  <Address>1460 F Street </Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.09031</Latitude>
+  <Longitude>-118.26562</Longitude>
+  <Phone_Number>5095297565</Phone_Number>
+  <Website_URL>http://www.ashhollow.com/</Website_URL>
+  <Twitter>http://twitter.com/AshHollow</Twitter>
+  <Facebook/>
+</Winery>
+<Winery>
+  <Winery_Name>Balboa Winery</Winery_Name>
+  <Address>4169 Peppers Bridge Road</Address>
+  <City>Walla Walla </City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.005979</Latitude>
+  <Longitude>-118.38332</Longitude>
+  <Phone_Number>5095290461</Phone_Number>
+  <Website_URL>http://www.balboawinery.com/</Website_URL>
+  <Twitter>http://twitter.com/balboawinery</Twitter>
+  <Facebook/>
+</Winery>
+<Winery>
+  <Winery_Name>Basel Cellars Estate Winery</Winery_Name>
+  <Address>2901 Old Milton Highway </Address>
+  <City>Walla Walla </City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.01785</Latitude>
+  <Longitude>-118.39603</Longitude>
+  <Phone_Number>5095220200</Phone_Number>
+  <Website_URL>http://www.baselcellars.com/</Website_URL>
+  <Twitter>http://twitter.com/Basel_Cellars</Twitter>
+  <Facebook>https://www.facebook.com/baselcellars</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Beresan Winery</Winery_Name>
+  <Address>4169 Peppers Bridge Road</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.005979</Latitude>
+  <Longitude>-118.383322</Longitude>
+  <Phone_Number>5095222395</Phone_Number>
+  <Website_URL>http://beresanwines.com/</Website_URL>
+  <Twitter/>
+  <Facebook>https://www.facebook.com/beresanwines</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Bergevin Lane Vineyards</Winery_Name>
+  <Address>1215 West Poplar Street</Address>
+  <City>Walla Walla </City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0583949</Latitude>
+  <Longitude>-118.35293</Longitude>
+  <Phone_Number>5095264300</Phone_Number>
+  <Website_URL>http://bergevinlane.com/</Website_URL>
+  <Twitter>http://twitter.com/blvwine</Twitter>
+  <Facebook>http://www.facebook.com/pages/Bergevin-Lane/95681546853</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Bunchgrass Winery</Winery_Name>
+  <Address>151 Bunchgrass Lane</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0617719</Latitude>
+  <Longitude>-118.41559</Longitude>
+  <Phone_Number>5095408963</Phone_Number>
+  <Website_URL>http://bunchgrasswinery.com/</Website_URL>
+  <Twitter/>
+  <Facebook>https://www.facebook.com/bunchgrass</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Buty Winery</Winery_Name>
+  <Address>535 East Cessna Avenue</Address>
+  <City>Walla Walla </City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0874269</Latitude>
+  <Longitude>-118.27227</Longitude>
+  <Phone_Number>5095270901</Phone_Number>
+  <Website_URL>http://www.butywinery.com/</Website_URL>
+  <Twitter>http://twitter.com/ButyWinery</Twitter>
+  <Facebook>http://www.facebook.com/pages/Buty-Winery/123003631089321</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Cadaretta</Winery_Name>
+  <Address>315 East Main Street</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.070239</Latitude>
+  <Longitude>-118.33537</Longitude>
+  <Phone_Number>5095251352</Phone_Number>
+  <Website_URL>http://www.cadaretta.com/</Website_URL>
+  <Twitter>http://twitter.com/cadaretta</Twitter>
+  <Facebook/>
+</Winery>
+<Winery>
+  <Winery_Name>Castillo de Feliciana</Winery_Name>
+  <Address>85728 Telephone Pole Road</Address>
+  <City>Milton Freewater</City>
+  <State>OR</State>
+  <Zip>97862</Zip>
+  <Latitude>45.9589039</Latitude>
+  <Longitude>-118.36608</Longitude>
+  <Phone_Number>5415583656</Phone_Number>
+  <Website_URL>http://castillodefeliciana.com/</Website_URL>
+  <Twitter>http://twitter.com/felicianawinery</Twitter>
+  <Facebook>http://www.facebook.com/pages/Castillo-de-Feliciana-Vineyard-Winery/177659048918314</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Cayuse Vineyards</Winery_Name>
+  <Address>17 E. Main Street</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0670659</Latitude>
+  <Longitude>-118.33855</Longitude>
+  <Phone_Number>5095260686</Phone_Number>
+  <Website_URL>http://www.cayusevineyards.com/static/</Website_URL>
+  <Twitter/>
+  <Facebook/>
+</Winery>
+<Winery>
+  <Winery_Name>College Cellars</Winery_Name>
+  <Address>3020 Isaacs Avenue</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0785649</Latitude>
+  <Longitude>-118.27645</Longitude>
+  <Phone_Number>5095245170</Phone_Number>
+  <Website_URL/>
+  <Twitter>https://twitter.com/collegecellars</Twitter>
+  <Facebook>http://www.facebook.com/CollegeCellars</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Corliss Estates</Winery_Name>
+  <Address>511 N Second Avenue</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0708959</Latitude>
+  <Longitude>-118.34324</Longitude>
+  <Phone_Number>5095264400</Phone_Number>
+  <Website_URL>http://corlissestates.com/</Website_URL>
+  <Twitter/>
+  <Facebook>http://www.facebook.com/#!/pages/Corliss-Estates/203034313069641</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Corvus Cellars</Winery_Name>
+  <Address>596 Piper Ave </Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.091942</Latitude>
+  <Longitude>-118.26111</Longitude>
+  <Phone_Number>5092410318</Phone_Number>
+  <Website_URL>http://www.corvuscellars.com/</Website_URL>
+  <Twitter>http://twitter.com/CorvusCellars/</Twitter>
+  <Facebook>http://www.facebook.com/corvuscellars</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Cougar Crest Estate Winery</Winery_Name>
+  <Address>50 Frenchtown Road</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.047144</Latitude>
+  <Longitude>-118.49091</Longitude>
+  <Phone_Number>5095295980</Phone_Number>
+  <Website_URL>http://www.cougarcrestwinery.com/</Website_URL>
+  <Twitter>http://twitter.com/CougarCrest</Twitter>
+  <Facebook>http://www.facebook.com/cougarcrestwinery</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>DaMa Wines</Winery_Name>
+  <Address>51 East Main Street </Address>
+  <City>Walla Walla </City>
+  <State>WA </State>
+  <Zip>99362</Zip>
+  <Latitude>46.0672039</Latitude>
+  <Longitude>-118.33821</Longitude>
+  <Phone_Number>5095252299</Phone_Number>
+  <Website_URL>http://www.damawines.com/</Website_URL>
+  <Twitter>https://twitter.com/#!/DaMaWines</Twitter>
+  <Facebook>http://www.facebook.com/damawines</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Doubleback</Winery_Name>
+  <Address>229 E Main St</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.069057</Latitude>
+  <Longitude>-118.33616</Longitude>
+  <Phone_Number>5095253334</Phone_Number>
+  <Website_URL>http://www.doubleback.com/</Website_URL>
+  <Twitter>https://twitter.com/#!/doublebackwine</Twitter>
+  <Facebook>http://www.facebook.com/DoublebackWinery</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Dunham Cellars</Winery_Name>
+  <Address>150 E. Boeing Ave.</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0886418</Latitude>
+  <Longitude>-118.27693</Longitude>
+  <Phone_Number>5095294685</Phone_Number>
+  <Website_URL>http://www.dunhamcellars.com/</Website_URL>
+  <Twitter>http://www.twitter.com/dunhamcellars</Twitter>
+  <Facebook>http://www.facebook.com/dunhamcellars</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Dusted Valley Vintners</Winery_Name>
+  <Address>1248 Old Milton Highway</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.024329</Latitude>
+  <Longitude>-118.35045</Longitude>
+  <Phone_Number>5095251337</Phone_Number>
+  <Website_URL>http://dustedvalley.com/</Website_URL>
+  <Twitter>http://twitter.com/DustedValley</Twitter>
+  <Facebook>http://www.facebook.com/DustedValley</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Echo Ridge Cellars</Winery_Name>
+  <Address>1102 Dell Ave</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.071205</Latitude>
+  <Longitude>-118.356925</Longitude>
+  <Phone_Number>4257499073</Phone_Number>
+  <Website_URL>http://www.echoridgecellars.com/index</Website_URL>
+  <Twitter>https://twitter.com/EchoRdgeCellars</Twitter>
+  <Facebook>https://www.facebook.com/EchoRidgeCellars</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Elegante Cellars</Winery_Name>
+  <Address>839 C St.</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0881649</Latitude>
+  <Longitude>-118.27599</Longitude>
+  <Phone_Number>5095259129</Phone_Number>
+  <Website_URL>http://www.elegantecellars.com/</Website_URL>
+  <Twitter/>
+  <Facebook/>
+</Winery>
+<Winery>
+  <Winery_Name>Ensemble Cellars</Winery_Name>
+  <Address>145 E. Curtis Avenue</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0881899</Latitude>
+  <Longitude>-118.27147</Longitude>
+  <Phone_Number>5095250231</Phone_Number>
+  <Website_URL>http://www.ensemblecellars.com/</Website_URL>
+  <Twitter/>
+  <Facebook>http://www.facebook.com/pages/Ensemble-Cellars/262441909311</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Figgins</Winery_Name>
+  <Address>2900 Melrose St</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude/>
+  <Longitude/>
+  <Phone_Number>5095227808</Phone_Number>
+  <Website_URL>http://www.figginswine.com/</Website_URL>
+  <Twitter/>
+  <Facebook>https://www.facebook.com/FIGGINSWinery</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Five Star Cellars</Winery_Name>
+  <Address>840 C Street</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude/>
+  <Longitude/>
+  <Phone_Number>5095278400</Phone_Number>
+  <Website_URL>http://www.fivestarcellars.com/</Website_URL>
+  <Twitter>http://twitter.com/fivestarcellars</Twitter>
+  <Facebook>http://www.facebook.com/pages/Five-Star-Cellars/282447362770</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Fjellene Cellars</Winery_Name>
+  <Address>1050 Merlot Drive</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0109429</Latitude>
+  <Longitude>-118.34499</Longitude>
+  <Phone_Number>5418619359</Phone_Number>
+  <Website_URL>https://fjellenecellars.com/</Website_URL>
+  <Twitter>http://twitter.com/fjellenecellars</Twitter>
+  <Facebook>http://www.facebook.com/pages/Fjellene-Cellars/346355857566</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Fort Walla Walla Cellars</Winery_Name>
+  <Address>127 E. Main Street</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.068852</Latitude>
+  <Longitude>-118.33688</Longitude>
+  <Phone_Number>5095201095</Phone_Number>
+  <Website_URL>http://www.fortwallawallacellars.com/</Website_URL>
+  <Twitter>http://twitter.com/FWW_Cellars</Twitter>
+  <Facebook>http://www.facebook.com/pages/Fort-Walla-Walla-Cellars/102060249005</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Foundry Vineyards</Winery_Name>
+  <Address>1111 Abadie Street</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.062978</Latitude>
+  <Longitude>-118.35667</Longitude>
+  <Phone_Number>5095290736</Phone_Number>
+  <Website_URL>http://www.foundryvineyards.com/</Website_URL>
+  <Twitter>http://twitter.com/FoundryVineyard</Twitter>
+  <Facebook>http://www.facebook.com/pages/Foundry-Vineyards/198122406886154</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Garrison Creek Cellars</Winery_Name>
+  <Address>4153 Hood Road</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.004229</Latitude>
+  <Longitude>-118.27465</Longitude>
+  <Phone_Number>5095257377</Phone_Number>
+  <Website_URL>http://www.garrisoncreekcellars.com/</Website_URL>
+  <Twitter/>
+  <Facebook>http://www.facebook.com/pages/Garrison-Creek-Cellars/164945756899828</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Gifford Hirlinger</Winery_Name>
+  <Address>1450 Stateline Road</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0007099</Latitude>
+  <Longitude>-118.36545</Longitude>
+  <Phone_Number>5093019229</Phone_Number>
+  <Website_URL>https://giffordhirlinger.com/</Website_URL>
+  <Twitter>http://twitter.com/ghwine</Twitter>
+  <Facebook>http://www.facebook.com/pages/Gifford-Hirlinger/47968482846</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Glencorrie Winery</Winery_Name>
+  <Address>8052 Old Highway 12</Address>
+  <City>Walla Walla </City>
+  <State>WA </State>
+  <Zip>99362</Zip>
+  <Latitude>46.046982</Latitude>
+  <Longitude>-118.499691</Longitude>
+  <Phone_Number>5095252585</Phone_Number>
+  <Website_URL>http://www.glencorrie.com/</Website_URL>
+  <Twitter>http://twitter.com/Glencorrie</Twitter>
+  <Facebook>http://www.facebook.com/pages/Glencorrie-Winery/105593436153823</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Gramercy Cellars</Winery_Name>
+  <Address>635 N 13th Ave</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.066977</Latitude>
+  <Longitude>-118.35692</Longitude>
+  <Phone_Number>5098762427</Phone_Number>
+  <Website_URL>http://www.gramercycellars.com/</Website_URL>
+  <Twitter/>
+  <Facebook>http://www.facebook.com/GramercyCellarsFanPage</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Grantwood Winery</Winery_Name>
+  <Address>2428 Heritage Rd</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0678169</Latitude>
+  <Longitude>-118.39624</Longitude>
+  <Phone_Number>5093019546</Phone_Number>
+  <Website_URL/>
+  <Twitter/>
+  <Facebook/>
+</Winery>
+<Winery>
+  <Winery_Name>Isenhower Cellars</Winery_Name>
+  <Address>3741 Pranger Road</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.017529</Latitude>
+  <Longitude>-118.36217</Longitude>
+  <Phone_Number>5095267896</Phone_Number>
+  <Website_URL>http://www.isenhowercellars.com/</Website_URL>
+  <Twitter>http://twitter.com/isenhowervino</Twitter>
+  <Facebook>http://www.facebook.com/pages/Isenhower-Cellars/48195204780</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Kerloo Cellars</Winery_Name>
+  <Address>16 North 2nd Ave </Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.067328</Latitude>
+  <Longitude>-118.33985</Longitude>
+  <Phone_Number>2063490641</Phone_Number>
+  <Website_URL>https://kerloocellars.com/</Website_URL>
+  <Twitter/>
+  <Facebook>http://www.facebook.com/kerloocellars</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Kontos Cellars</Winery_Name>
+  <Address>594 Piper Avenue</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.093052</Latitude>
+  <Longitude>-118.26316</Longitude>
+  <Phone_Number>5093864471</Phone_Number>
+  <Website_URL>http://www.kontoscellars.com/</Website_URL>
+  <Twitter>http://twitter.com/KontosCellars</Twitter>
+  <Facebook>http://www.facebook.com/pages/Kontos-Cellars/50546111164</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>L'Ecole No 41</Winery_Name>
+  <Address>41 Lowden School Road</Address>
+  <City>Lowden</City>
+  <State>WA</State>
+  <Zip>99360</Zip>
+  <Latitude>46.057029</Latitude>
+  <Longitude>-118.58161</Longitude>
+  <Phone_Number>5095250940</Phone_Number>
+  <Website_URL>http://www.lecole.com/</Website_URL>
+  <Twitter>http://twitter.com/lecole41</Twitter>
+  <Facebook>http://www.facebook.com/lecole41</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Leonetti Cellar</Winery_Name>
+  <Address>1875 Foothills Lane</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0563989</Latitude>
+  <Longitude>-118.29612</Longitude>
+  <Phone_Number>5095251428</Phone_Number>
+  <Website_URL>http://www.leonetticellar.com/</Website_URL>
+  <Twitter/>
+  <Facebook/>
+</Winery>
+<Winery>
+  <Winery_Name>Long Shadows Vintners</Winery_Name>
+  <Address>1604 Frenchtown Road</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0689089</Latitude>
+  <Longitude>-118.4906</Longitude>
+  <Phone_Number>5095260905</Phone_Number>
+  <Website_URL>http://www.longshadows.com/</Website_URL>
+  <Twitter>http://twitter.com/LongShadowsWine</Twitter>
+  <Facebook>http://www.facebook.com/pages/Long-Shadows-Vintners/117274751508</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Mackey Vineyards</Winery_Name>
+  <Address>14 North 2nd Avenue Tasting Room</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0672659</Latitude>
+  <Longitude>-118.33983</Longitude>
+  <Phone_Number>5092409226</Phone_Number>
+  <Website_URL>http://www.mackeyvineyards.com/</Website_URL>
+  <Twitter/>
+  <Facebook>http://www.facebook.com/pages/Mackey-Vineyards/117376591656374</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Mannina Cellars</Winery_Name>
+  <Address>760 C Street</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0876319</Latitude>
+  <Longitude>-118.27655</Longitude>
+  <Phone_Number>5092002366</Phone_Number>
+  <Website_URL>http://www.manninacellars.com/</Website_URL>
+  <Twitter>http://twitter.com/manninacellars</Twitter>
+  <Facebook>http://www.facebook.com/pages/Mannina-Cellars/60475646860</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Morrison Lane</Winery_Name>
+  <Address>1249 Lyday Lane</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.006283</Latitude>
+  <Longitude>-118.352123</Longitude>
+  <Phone_Number>5095260229</Phone_Number>
+  <Website_URL>http://www.morrisonlane.com/</Website_URL>
+  <Twitter/>
+  <Facebook>https://www.facebook.com/pages/Morrison-Lane-Vineyard-Winery/115334191935735</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Northstar Winery</Winery_Name>
+  <Address>1736 JB George Road</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.011662</Latitude>
+  <Longitude>-118.36517</Longitude>
+  <Phone_Number>5095256100</Phone_Number>
+  <Website_URL>http://www.northstarwinery.com/</Website_URL>
+  <Twitter>http://twitter.com/northstarwinery</Twitter>
+  <Facebook>http://www.facebook.com/northstarwinery</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Otis Kenyon Wine</Winery_Name>
+  <Address>23 East Main Street</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.067149</Latitude>
+  <Longitude>-118.33851</Longitude>
+  <Phone_Number>5095253505</Phone_Number>
+  <Website_URL>http://www.otiskenyonwine.com/</Website_URL>
+  <Twitter>http://twitter.com/#!/otiskenyonwine</Twitter>
+  <Facebook>http://www.facebook.com/pages/Otis-Kenyon-Wine/62550454512</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Pepper Bridge Winery</Winery_Name>
+  <Address>1704 JB George Road</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.012334</Latitude>
+  <Longitude>-118.36988</Longitude>
+  <Phone_Number>5095256502</Phone_Number>
+  <Website_URL>http://www.pepperbridge.com/</Website_URL>
+  <Twitter>http://twitter.com/#!/PepperBridge</Twitter>
+  <Facebook>http://www.facebook.com/PepperBridge</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Rasa Vineyards</Winery_Name>
+  <Address>4122 Powerline Road</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0099549</Latitude>
+  <Longitude>-118.31498</Longitude>
+  <Phone_Number>5092520900</Phone_Number>
+  <Website_URL>http://www.rasavineyards.com/</Website_URL>
+  <Twitter>https://twitter.com/#!/winerasa</Twitter>
+  <Facebook>http://www.facebook.com/#!/pages/Rasa-Vineyards/75055891391</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Reininger Winery</Winery_Name>
+  <Address>5858 Old Highway 12</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.052354</Latitude>
+  <Longitude>-118.4597</Longitude>
+  <Phone_Number>5095221994</Phone_Number>
+  <Website_URL>http://reiningerwinery.com/</Website_URL>
+  <Twitter>http://twitter.com/#!/REININGERwinery</Twitter>
+  <Facebook>https://www.facebook.com/RWinery</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Reynvaan Family Vineyards</Winery_Name>
+  <Address>6309 Cottonwood Road</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.01306</Latitude>
+  <Longitude>-118.22842</Longitude>
+  <Phone_Number>5095253462</Phone_Number>
+  <Website_URL>http://www.reynvaanfamilyvineyards.com/</Website_URL>
+  <Twitter/>
+  <Facebook>http://www.facebook.com/pages/Reynvaan-Family-Vineyards/134392233241245</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Saviah Cellars</Winery_Name>
+  <Address>1979 JB George Road</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0041</Latitude>
+  <Longitude>-118.38236</Longitude>
+  <Phone_Number>5095222181</Phone_Number>
+  <Website_URL>http://www.saviahcellars.com/</Website_URL>
+  <Twitter>http://twitter.com/saviah</Twitter>
+  <Facebook>http://www.facebook.com/saviahcellars</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Seven Hills Winery</Winery_Name>
+  <Address>212 N 3rd Avenue</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.068589</Latitude>
+  <Longitude>-118.34198</Longitude>
+  <Phone_Number>5095297198</Phone_Number>
+  <Website_URL>http://www.sevenhillswinery.com/</Website_URL>
+  <Twitter>http://twitter.com/#!/7HillsWinery</Twitter>
+  <Facebook>http://www.facebook.com/pages/Seven-Hills-Winery/76193719188</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Sinclair Estate Vineyards</Winery_Name>
+  <Address>109-B East Main Street</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0684279</Latitude>
+  <Longitude>-118.33735</Longitude>
+  <Phone_Number>5098764300</Phone_Number>
+  <Website_URL>http://www.SinclairEstateVineyards.com/</Website_URL>
+  <Twitter>http://twitter.com/#!/SinclairEstate</Twitter>
+  <Facebook>http://www.facebook.com/pages/Sinclair-Estate-Vineyards/119042064773269</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Skylite Cellars</Winery_Name>
+  <Address>25 South Campbell Road </Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.067136</Latitude>
+  <Longitude>-118.403324</Longitude>
+  <Phone_Number>5095298000</Phone_Number>
+  <Website_URL>http://www.skylitecellars.com/</Website_URL>
+  <Twitter>http://twitter.com/SkyliteCellars</Twitter>
+  <Facebook>https://www.facebook.com/skylitecellarswine</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Sleight of Hand Cellars</Winery_Name>
+  <Address>1959 JB George Road</Address>
+  <City>Walla Walla </City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.004234</Latitude>
+  <Longitude>-118.380588</Longitude>
+  <Phone_Number>5095253661</Phone_Number>
+  <Website_URL>http://www.sofhcellars.com/default.aspx</Website_URL>
+  <Twitter/>
+  <Facebook>http://www.facebook.com/pages/Sleight-of-Hand-Cellars/50521891503</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Spofford Station Vineyards</Winery_Name>
+  <Address>85131 Elliot Road</Address>
+  <City>Milton Freewater</City>
+  <State>OR</State>
+  <Zip>97862</Zip>
+  <Latitude/>
+  <Longitude/>
+  <Phone_Number>5095291398</Phone_Number>
+  <Website_URL/>
+  <Twitter/>
+  <Facebook/>
+</Winery>
+<Winery>
+  <Winery_Name>Spring Valley Vineyard</Winery_Name>
+  <Address>18 North 2nd Avenue </Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.067504</Latitude>
+  <Longitude>-118.339557</Longitude>
+  <Phone_Number>5095251506</Phone_Number>
+  <Website_URL/>
+  <Twitter/>
+  <Facebook/>
+</Winery>
+<Winery>
+  <Winery_Name>Tamarack Cellars</Winery_Name>
+  <Address>700 C Street </Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.088165</Latitude>
+  <Longitude>-118.275991</Longitude>
+  <Phone_Number>5095263533</Phone_Number>
+  <Website_URL>http://tamarackcellars.com/</Website_URL>
+  <Twitter>http://twitter.com/TamarackCellars</Twitter>
+  <Facebook/>
+</Winery>
+<Winery>
+  <Winery_Name>Tempus Cellars</Winery_Name>
+  <Address>124 West Boeing Avenue #3</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.089093</Latitude>
+  <Longitude>-118.278417</Longitude>
+  <Phone_Number>5092700298</Phone_Number>
+  <Website_URL>http://www.tempuscellars.com/</Website_URL>
+  <Twitter/>
+  <Facebook>http://www.facebook.com/pages/Tempus-Cellars/100385271660</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Tero Estates Flying Trout Wines</Winery_Name>
+  <Address>6 West Rose Street </Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.067801</Latitude>
+  <Longitude>-118.341422</Longitude>
+  <Phone_Number>5412030020</Phone_Number>
+  <Website_URL>http://www.teroestates.com/</Website_URL>
+  <Twitter/>
+  <Facebook>https://www.facebook.com/pages/Tero-Estates-and-Flying-Trout-Wines/123710751001213</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Tertulia Cellars</Winery_Name>
+  <Address>1564 Whiteley Road </Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0139349</Latitude>
+  <Longitude>-118.36031</Longitude>
+  <Phone_Number>5095255700</Phone_Number>
+  <Website_URL>http://www.tertuliacellars.com/</Website_URL>
+  <Twitter>http://twitter.com/TertuliaCellars</Twitter>
+  <Facebook>https://www.facebook.com/tertuliacellars</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Three Rivers Winery</Winery_Name>
+  <Address>5641 Old Highway 12</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0515219</Latitude>
+  <Longitude>-118.46057</Longitude>
+  <Phone_Number>5095269463</Phone_Number>
+  <Website_URL>http://www.threeriverswinery.com/</Website_URL>
+  <Twitter>http://twitter.com/3riverswinery</Twitter>
+  <Facebook/>
+</Winery>
+<Winery>
+  <Winery_Name>Tranche Cellars</Winery_Name>
+  <Address>705 Berney Drive</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.063011</Latitude>
+  <Longitude>-118.28425</Longitude>
+  <Phone_Number>5095263500</Phone_Number>
+  <Website_URL>http://www.tranchecellars.com/</Website_URL>
+  <Twitter>http://twitter.com/TrancheCellars</Twitter>
+  <Facebook/>
+</Winery>
+<Winery>
+  <Winery_Name>Trio Vintners</Winery_Name>
+  <Address>6 West Rose Street</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.067801</Latitude>
+  <Longitude>-118.34142</Longitude>
+  <Phone_Number>5095298746</Phone_Number>
+  <Website_URL>http://www.triovintners.com/</Website_URL>
+  <Twitter/>
+  <Facebook>http://www.facebook.com/triovintners</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Trust Cellars</Winery_Name>
+  <Address>202 A Street</Address>
+  <City>Walla Walla </City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.0898759</Latitude>
+  <Longitude>-118.27934</Longitude>
+  <Phone_Number>5095294511</Phone_Number>
+  <Website_URL>http://www.trustcellars.com/</Website_URL>
+  <Twitter>http://twitter.com/#!/TrustCellars</Twitter>
+  <Facebook>http://www.facebook.com/profile.php?id=1362703415</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Va Piano Vineyards</Winery_Name>
+  <Address>1793 JB George Road</Address>
+  <City>Walla Walla</City>
+  <State>WA</State>
+  <Zip>99362</Zip>
+  <Latitude>46.003999</Latitude>
+  <Longitude>-118.37112</Longitude>
+  <Phone_Number>5095290900</Phone_Number>
+  <Website_URL>http://www.vapianovineyards.com/</Website_URL>
+  <Twitter>http://twitter.com/#!/vapianoestate</Twitter>
+  <Facebook>http://www.facebook.com/pages/Va-Piano-Vineyards/69874267078</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Walla Walla Vintners</Winery_Name>
+  <Address>225 Vineyard Lane</Address>
+  <City>Walla Walla </City>
+  <State>WA </State>
+  <Zip>99362</Zip>
+  <Latitude>46.0882149</Latitude>
+  <Longitude>-118.20394</Longitude>
+  <Phone_Number>5095254724</Phone_Number>
+  <Website_URL>http://www.wallawallavintners.com/</Website_URL>
+  <Twitter/>
+  <Facebook>http://www.facebook.com/wallawallavintners</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Waterbrook Winery</Winery_Name>
+  <Address>10518 W. Highway 12</Address>
+  <City>Walla Walla </City>
+  <State>WA </State>
+  <Zip>99362</Zip>
+  <Latitude>46.055239</Latitude>
+  <Longitude>-118.55907</Longitude>
+  <Phone_Number>5095221262</Phone_Number>
+  <Website_URL>http://www.waterbrook.com/</Website_URL>
+  <Twitter>http://twitter.com/WaterbrookWine</Twitter>
+  <Facebook>http://www.facebook.com/waterbrookwinery</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Watermill Winery</Winery_Name>
+  <Address>235 E Broadway Avenue</Address>
+  <City>Milton Freewater </City>
+  <State>OR </State>
+  <Zip>97862</Zip>
+  <Latitude>45.937221</Latitude>
+  <Longitude>-118.39271</Longitude>
+  <Phone_Number>5419385575</Phone_Number>
+  <Website_URL>http://www.watermillwinery.com/</Website_URL>
+  <Twitter>http://twitter.com/#!/WatermillWinery</Twitter>
+  <Facebook>http://www.facebook.com/watermillwine</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Woodward Canyon Winery</Winery_Name>
+  <Address>11920 W. Highway 12</Address>
+  <City>Lowden</City>
+  <State>WA</State>
+  <Zip>99360</Zip>
+  <Latitude>46.0563709</Latitude>
+  <Longitude>-118.58373</Longitude>
+  <Phone_Number>5095254129</Phone_Number>
+  <Website_URL>https://www.woodwardcanyon.com/woodward.php</Website_URL>
+  <Twitter>http://twitter.com/#!/woodwardcanyon</Twitter>
+  <Facebook>https://www.facebook.com/woodwardcanyonwinery</Facebook>
+</Winery>
+<Winery>
+  <Winery_Name>Zerba Cellars</Winery_Name>
+  <Address>85530 HWY 11</Address>
+  <City>Milton Freewater </City>
+  <State>OR </State>
+  <Zip>97862</Zip>
+  <Latitude>45.993023</Latitude>
+  <Longitude>-118.38734</Longitude>
+  <Phone_Number>5419389463</Phone_Number>
+  <Website_URL>http://www.zerbacellars.com/</Website_URL>
+  <Twitter>http://twitter.com/#!/ZerbaCellars</Twitter>
+  <Facebook>http://www.facebook.com/ZerbaCellars</Facebook>
+</Winery>
+</Document>

@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D29C2B21704EEE2002AFF0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D29C2B11704EEE2002AFF0A /* UIKit.framework */; };
+		5D29C2B41704EEE2002AFF0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D29C2B31704EEE2002AFF0A /* Foundation.framework */; };
+		5D29C2B61704EEE2002AFF0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D29C2B51704EEE2002AFF0A /* CoreGraphics.framework */; };
+		5D29C2BC1704EEE2002AFF0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D29C2BA1704EEE2002AFF0A /* InfoPlist.strings */; };
+		5D29C2BE1704EEE2002AFF0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D29C2BD1704EEE2002AFF0A /* main.m */; };
+		5D29C2C21704EEE2002AFF0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D29C2C11704EEE2002AFF0A /* AppDelegate.m */; };
+		5D29C2C41704EEE2002AFF0A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D29C2C31704EEE2002AFF0A /* Default.png */; };
+		5D29C2C61704EEE2002AFF0A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D29C2C51704EEE2002AFF0A /* Default@2x.png */; };
+		5D29C2C81704EEE2002AFF0A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D29C2C71704EEE2002AFF0A /* Default-568h@2x.png */; };
+		5D29C2CB1704EEE2002AFF0A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D29C2C91704EEE2002AFF0A /* MainStoryboard_iPhone.storyboard */; };
+		5D29C2CE1704EEE2002AFF0A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D29C2CC1704EEE2002AFF0A /* MainStoryboard_iPad.storyboard */; };
+		5D29C2D11704EEE2002AFF0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D29C2D01704EEE2002AFF0A /* ViewController.m */; };
+		5D29C2D91704EEE2002AFF0A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D29C2D81704EEE2002AFF0A /* SenTestingKit.framework */; };
+		5D29C2DA1704EEE2002AFF0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D29C2B11704EEE2002AFF0A /* UIKit.framework */; };
+		5D29C2DB1704EEE2002AFF0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D29C2B31704EEE2002AFF0A /* Foundation.framework */; };
+		5D29C2E31704EEE2002AFF0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D29C2E11704EEE2002AFF0A /* InfoPlist.strings */; };
+		5D29C2E61704EEE2002AFF0A /* WWwineriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D29C2E51704EEE2002AFF0A /* WWwineriesTests.m */; };
+		5D29C2F01704F09E002AFF0A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D29C2EF1704F09E002AFF0A /* MapKit.framework */; };
+		5D29C2F21704F68D002AFF0A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D29C2F11704F68D002AFF0A /* CoreData.framework */; };
+		5D6541ED1719292100C072F3 /* RXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6541EC1719292100C072F3 /* RXMLElement.m */; };
+		5D6541EE1719292100C072F3 /* RXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6541EC1719292100C072F3 /* RXMLElement.m */; };
+		5D6541F017205D3D00C072F3 /* winerydb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5D6541EF17205D3D00C072F3 /* winerydb.xml */; };
+		5D6541F117205D3D00C072F3 /* winerydb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5D6541EF17205D3D00C072F3 /* winerydb.xml */; };
+		5D6541F3172061E100C072F3 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6541F2172061E100C072F3 /* libxml2.dylib */; };
+		5D6541F51721B92700C072F3 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6541F41721B92700C072F3 /* AddressBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D29C2DC1704EEE2002AFF0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D29C2A61704EEE2002AFF0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D29C2AD1704EEE2002AFF0A;
+			remoteInfo = WWwineries;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D29C2AE1704EEE2002AFF0A /* WWwineries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWwineries.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D29C2B11704EEE2002AFF0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5D29C2B31704EEE2002AFF0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D29C2B51704EEE2002AFF0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5D29C2B91704EEE2002AFF0A /* WWwineries-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WWwineries-Info.plist"; sourceTree = "<group>"; };
+		5D29C2BB1704EEE2002AFF0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D29C2BD1704EEE2002AFF0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D29C2BF1704EEE2002AFF0A /* WWwineries-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WWwineries-Prefix.pch"; sourceTree = "<group>"; };
+		5D29C2C01704EEE2002AFF0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D29C2C11704EEE2002AFF0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D29C2C31704EEE2002AFF0A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5D29C2C51704EEE2002AFF0A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5D29C2C71704EEE2002AFF0A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5D29C2CA1704EEE2002AFF0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		5D29C2CD1704EEE2002AFF0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		5D29C2CF1704EEE2002AFF0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D29C2D01704EEE2002AFF0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D29C2D71704EEE2002AFF0A /* WWwineriesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWwineriesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D29C2D81704EEE2002AFF0A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5D29C2E01704EEE2002AFF0A /* WWwineriesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WWwineriesTests-Info.plist"; sourceTree = "<group>"; };
+		5D29C2E21704EEE2002AFF0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D29C2E41704EEE2002AFF0A /* WWwineriesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWwineriesTests.h; sourceTree = "<group>"; };
+		5D29C2E51704EEE2002AFF0A /* WWwineriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWwineriesTests.m; sourceTree = "<group>"; };
+		5D29C2EF1704F09E002AFF0A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5D29C2F11704F68D002AFF0A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5D29C2F31704F69D002AFF0A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		5D6541EB1719292100C072F3 /* RXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RXMLElement.h; path = RaptureXML/RXMLElement.h; sourceTree = "<group>"; };
+		5D6541EC1719292100C072F3 /* RXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RXMLElement.m; path = RaptureXML/RXMLElement.m; sourceTree = "<group>"; };
+		5D6541EF17205D3D00C072F3 /* winerydb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = winerydb.xml; sourceTree = "<group>"; };
+		5D6541F2172061E100C072F3 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		5D6541F41721B92700C072F3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D29C2AB1704EEE2002AFF0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D6541F51721B92700C072F3 /* AddressBook.framework in Frameworks */,
+				5D6541F3172061E100C072F3 /* libxml2.dylib in Frameworks */,
+				5D29C2F21704F68D002AFF0A /* CoreData.framework in Frameworks */,
+				5D29C2F01704F09E002AFF0A /* MapKit.framework in Frameworks */,
+				5D29C2B21704EEE2002AFF0A /* UIKit.framework in Frameworks */,
+				5D29C2B41704EEE2002AFF0A /* Foundation.framework in Frameworks */,
+				5D29C2B61704EEE2002AFF0A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D29C2D31704EEE2002AFF0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D29C2D91704EEE2002AFF0A /* SenTestingKit.framework in Frameworks */,
+				5D29C2DA1704EEE2002AFF0A /* UIKit.framework in Frameworks */,
+				5D29C2DB1704EEE2002AFF0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D29C2A51704EEE2002AFF0A = {
+			isa = PBXGroup;
+			children = (
+				5D6541F41721B92700C072F3 /* AddressBook.framework */,
+				5D6541F2172061E100C072F3 /* libxml2.dylib */,
+				5D6541EF17205D3D00C072F3 /* winerydb.xml */,
+				5D6541EB1719292100C072F3 /* RXMLElement.h */,
+				5D6541EC1719292100C072F3 /* RXMLElement.m */,
+				5D29C2F31704F69D002AFF0A /* libsqlite3.dylib */,
+				5D29C2F11704F68D002AFF0A /* CoreData.framework */,
+				5D29C2EF1704F09E002AFF0A /* MapKit.framework */,
+				5D29C2B71704EEE2002AFF0A /* WWwineries */,
+				5D29C2DE1704EEE2002AFF0A /* WWwineriesTests */,
+				5D29C2B01704EEE2002AFF0A /* Frameworks */,
+				5D29C2AF1704EEE2002AFF0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D29C2AF1704EEE2002AFF0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D29C2AE1704EEE2002AFF0A /* WWwineries.app */,
+				5D29C2D71704EEE2002AFF0A /* WWwineriesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D29C2B01704EEE2002AFF0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D29C2B11704EEE2002AFF0A /* UIKit.framework */,
+				5D29C2B31704EEE2002AFF0A /* Foundation.framework */,
+				5D29C2B51704EEE2002AFF0A /* CoreGraphics.framework */,
+				5D29C2D81704EEE2002AFF0A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D29C2B71704EEE2002AFF0A /* WWwineries */ = {
+			isa = PBXGroup;
+			children = (
+				5D29C2C01704EEE2002AFF0A /* AppDelegate.h */,
+				5D29C2C11704EEE2002AFF0A /* AppDelegate.m */,
+				5D29C2C91704EEE2002AFF0A /* MainStoryboard_iPhone.storyboard */,
+				5D29C2CC1704EEE2002AFF0A /* MainStoryboard_iPad.storyboard */,
+				5D29C2CF1704EEE2002AFF0A /* ViewController.h */,
+				5D29C2D01704EEE2002AFF0A /* ViewController.m */,
+				5D29C2B81704EEE2002AFF0A /* Supporting Files */,
+			);
+			path = WWwineries;
+			sourceTree = "<group>";
+		};
+		5D29C2B81704EEE2002AFF0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D29C2B91704EEE2002AFF0A /* WWwineries-Info.plist */,
+				5D29C2BA1704EEE2002AFF0A /* InfoPlist.strings */,
+				5D29C2BD1704EEE2002AFF0A /* main.m */,
+				5D29C2BF1704EEE2002AFF0A /* WWwineries-Prefix.pch */,
+				5D29C2C31704EEE2002AFF0A /* Default.png */,
+				5D29C2C51704EEE2002AFF0A /* Default@2x.png */,
+				5D29C2C71704EEE2002AFF0A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D29C2DE1704EEE2002AFF0A /* WWwineriesTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D29C2E41704EEE2002AFF0A /* WWwineriesTests.h */,
+				5D29C2E51704EEE2002AFF0A /* WWwineriesTests.m */,
+				5D29C2DF1704EEE2002AFF0A /* Supporting Files */,
+			);
+			path = WWwineriesTests;
+			sourceTree = "<group>";
+		};
+		5D29C2DF1704EEE2002AFF0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D29C2E01704EEE2002AFF0A /* WWwineriesTests-Info.plist */,
+				5D29C2E11704EEE2002AFF0A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D29C2AD1704EEE2002AFF0A /* WWwineries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D29C2E91704EEE2002AFF0A /* Build configuration list for PBXNativeTarget "WWwineries" */;
+			buildPhases = (
+				5D29C2AA1704EEE2002AFF0A /* Sources */,
+				5D29C2AB1704EEE2002AFF0A /* Frameworks */,
+				5D29C2AC1704EEE2002AFF0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWwineries;
+			productName = WWwineries;
+			productReference = 5D29C2AE1704EEE2002AFF0A /* WWwineries.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D29C2D61704EEE2002AFF0A /* WWwineriesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D29C2EC1704EEE2002AFF0A /* Build configuration list for PBXNativeTarget "WWwineriesTests" */;
+			buildPhases = (
+				5D29C2D21704EEE2002AFF0A /* Sources */,
+				5D29C2D31704EEE2002AFF0A /* Frameworks */,
+				5D29C2D41704EEE2002AFF0A /* Resources */,
+				5D29C2D51704EEE2002AFF0A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D29C2DD1704EEE2002AFF0A /* PBXTargetDependency */,
+			);
+			name = WWwineriesTests;
+			productName = WWwineriesTests;
+			productReference = 5D29C2D71704EEE2002AFF0A /* WWwineriesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D29C2A61704EEE2002AFF0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Joel Smith";
+			};
+			buildConfigurationList = 5D29C2A91704EEE2002AFF0A /* Build configuration list for PBXProject "WWwineries" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D29C2A51704EEE2002AFF0A;
+			productRefGroup = 5D29C2AF1704EEE2002AFF0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D29C2AD1704EEE2002AFF0A /* WWwineries */,
+				5D29C2D61704EEE2002AFF0A /* WWwineriesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D29C2AC1704EEE2002AFF0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D29C2BC1704EEE2002AFF0A /* InfoPlist.strings in Resources */,
+				5D29C2C41704EEE2002AFF0A /* Default.png in Resources */,
+				5D29C2C61704EEE2002AFF0A /* Default@2x.png in Resources */,
+				5D29C2C81704EEE2002AFF0A /* Default-568h@2x.png in Resources */,
+				5D29C2CB1704EEE2002AFF0A /* MainStoryboard_iPhone.storyboard in Resources */,
+				5D29C2CE1704EEE2002AFF0A /* MainStoryboard_iPad.storyboard in Resources */,
+				5D6541F017205D3D00C072F3 /* winerydb.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D29C2D41704EEE2002AFF0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D29C2E31704EEE2002AFF0A /* InfoPlist.strings in Resources */,
+				5D6541F117205D3D00C072F3 /* winerydb.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D29C2D51704EEE2002AFF0A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D29C2AA1704EEE2002AFF0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D29C2BE1704EEE2002AFF0A /* main.m in Sources */,
+				5D29C2C21704EEE2002AFF0A /* AppDelegate.m in Sources */,
+				5D29C2D11704EEE2002AFF0A /* ViewController.m in Sources */,
+				5D6541ED1719292100C072F3 /* RXMLElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D29C2D21704EEE2002AFF0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D29C2E61704EEE2002AFF0A /* WWwineriesTests.m in Sources */,
+				5D6541EE1719292100C072F3 /* RXMLElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D29C2DD1704EEE2002AFF0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D29C2AD1704EEE2002AFF0A /* WWwineries */;
+			targetProxy = 5D29C2DC1704EEE2002AFF0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D29C2BA1704EEE2002AFF0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D29C2BB1704EEE2002AFF0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5D29C2C91704EEE2002AFF0A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D29C2CA1704EEE2002AFF0A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5D29C2CC1704EEE2002AFF0A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D29C2CD1704EEE2002AFF0A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5D29C2E11704EEE2002AFF0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D29C2E21704EEE2002AFF0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D29C2E71704EEE2002AFF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D29C2E81704EEE2002AFF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D29C2EA1704EEE2002AFF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WWwineries/WWwineries-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "WWwineries/WWwineries-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5D29C2EB1704EEE2002AFF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WWwineries/WWwineries-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "WWwineries/WWwineries-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5D29C2ED1704EEE2002AFF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WWwineries.app/WWwineries";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WWwineries/WWwineries-Prefix.pch";
+				INFOPLIST_FILE = "WWwineriesTests/WWwineriesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5D29C2EE1704EEE2002AFF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WWwineries.app/WWwineries";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WWwineries/WWwineries-Prefix.pch";
+				INFOPLIST_FILE = "WWwineriesTests/WWwineriesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D29C2A91704EEE2002AFF0A /* Build configuration list for PBXProject "WWwineries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D29C2E71704EEE2002AFF0A /* Debug */,
+				5D29C2E81704EEE2002AFF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D29C2E91704EEE2002AFF0A /* Build configuration list for PBXNativeTarget "WWwineries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D29C2EA1704EEE2002AFF0A /* Debug */,
+				5D29C2EB1704EEE2002AFF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D29C2EC1704EEE2002AFF0A /* Build configuration list for PBXNativeTarget "WWwineriesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D29C2ED1704EEE2002AFF0A /* Debug */,
+				5D29C2EE1704EEE2002AFF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D29C2A61704EEE2002AFF0A /* Project object */;
+}

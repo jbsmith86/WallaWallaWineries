@@ -1,0 +1,72 @@
+Winery Name,Address,City,State,Zip,Latitude,Longitude,Phone Number,Website URL,Twitter,Facebook
+a?Maurice Cellars,178 Vineyard Lane,Walla Walla ,WA,99362,46.087231,-118.201802,(509)522-5444,http://amaurice.com/,,
+Abeja,2014 Mill Creek Road ,Walla Walla,WA,99362,46.0873729,-118.22673,(509)526-7400,http://www.abeja.net/,,
+Adamant Cellars,525 Cessna Avenue,Walla Walla,WA,99362,,,(509)529-4161,http://www.adamantcellars.com/,http://twitter.com/adamantcellars,
+Amavi,3796 Peppers Bridge Road,Walla Walla ,WA,99362,46.01615,-118.38378,(509)525-3541,http://www.amavicellars.com/,http://twitter.com/AmaviCellars,
+Ash Hollow Winery,1460 F Street ,Walla Walla,WA,99362,46.09031,-118.26562,(509)529-7565,http://www.ashhollow.com/,http://twitter.com/AshHollow,
+Balboa Winery,4169 Peppers Bridge Road,Walla Walla ,WA,99362,46.005979,-118.38332,(509)529-0461,http://www.balboawinery.com/,http://twitter.com/balboawinery,
+Basel Cellars Estate Winery,2901 Old Milton Highway ,Walla Walla ,WA,99362,46.01785,-118.39603,(509)522-0200,http://www.baselcellars.com/,http://twitter.com/Basel_Cellars,https://www.facebook.com/baselcellars
+Beresan Winery,4169 Peppers Bridge Road,Walla Walla,WA,99362,46.005979,-118.383322,(509)522-2395,http://beresanwines.com/,,https://www.facebook.com/beresanwines
+Bergevin Lane Vineyards,1215 West Poplar Street,Walla Walla ,WA,99362,46.0583949,-118.35293,(509)526-4300,http://bergevinlane.com/,http://twitter.com/blvwine,http://www.facebook.com/pages/Bergevin-Lane/95681546853
+Bunchgrass Winery,151 Bunchgrass Lane,Walla Walla,WA,99362,46.0617719,-118.41559,(509)540-8963,http://bunchgrasswinery.com/,,https://www.facebook.com/bunchgrass
+Buty Winery,535 East Cessna Avenue,Walla Walla ,WA,99362,46.0874269,-118.27227,(509)527-0901,http://www.butywinery.com/,http://twitter.com/ButyWinery,http://www.facebook.com/pages/Buty-Winery/123003631089321
+Cadaretta,315 East Main Street,Walla Walla,WA,99362,46.070239,-118.33537,(509)525-1352,http://www.cadaretta.com/,http://twitter.com/cadaretta,
+Castillo de Feliciana,85728 Telephone Pole Road,Milton Freewater,OR,97862,45.9589039,-118.36608,(541)558-3656,http://castillodefeliciana.com/,http://twitter.com/felicianawinery,http://www.facebook.com/pages/Castillo-de-Feliciana-Vineyard-Winery/177659048918314
+Cayuse Vineyards,17 E. Main Street,Walla Walla,WA,99362,46.0670659,-118.33855,(509) 526-0686,http://www.cayusevineyards.com/static/,,
+College Cellars,3020 Isaacs Avenue,Walla Walla,WA,99362,46.0785649,-118.27645,(509) 524-5170,,https://twitter.com/collegecellars,http://www.facebook.com/CollegeCellars
+Corliss Estates,511 N Second Avenue,Walla Walla,WA,99362,46.0708959,-118.34324,509 526-4400,http://corlissestates.com/,,http://www.facebook.com/#!/pages/Corliss-Estates/203034313069641
+Corvus Cellars,596 Piper Ave ,Walla Walla,WA,99362,46.091942,-118.26111,509-241-0318,http://www.corvuscellars.com/,http://twitter.com/CorvusCellars/,http://www.facebook.com/corvuscellars
+Cougar Crest Estate Winery,50 Frenchtown Road,Walla Walla,WA,99362,46.047144,-118.49091,(509) 529-5980,http://www.cougarcrestwinery.com/,http://twitter.com/CougarCrest,http://www.facebook.com/cougarcrestwinery
+DaMa Wines,51 East Main Street ,Walla Walla ,WA ,99362,46.0672039,-118.33821,509-525-2299 ,http://www.damawines.com/,https://twitter.com/#!/DaMaWines,http://www.facebook.com/damawines
+Doubleback,229 E Main St,Walla Walla,WA,99362,46.069057,-118.33616,509-525-3334,http://www.doubleback.com/,https://twitter.com/#!/doublebackwine,http://www.facebook.com/DoublebackWinery
+Dunham Cellars,150 E. Boeing Ave.,Walla Walla,WA,99362,46.0886418,-118.27693,509-529-4685,http://www.dunhamcellars.com/,http://www.twitter.com/dunhamcellars,http://www.facebook.com/dunhamcellars
+Dusted Valley Vintners,1248 Old Milton Highway,Walla Walla,WA,99362,46.024329,-118.35045,509-525-1337,http://dustedvalley.com/,http://twitter.com/DustedValley,http://www.facebook.com/DustedValley
+Echo Ridge Cellars,1102 Dell Ave,Walla Walla,WA,99362,46.071205,-118.356925,425-749-9073,http://www.echoridgecellars.com/index,https://twitter.com/EchoRdgeCellars,https://www.facebook.com/EchoRidgeCellars
+Elegante? Cellars,839 &quot;C&quot; St.,Walla Walla,WA,99362,46.0881649,-118.27599,509 525 9129,http://www.elegantecellars.com/,,
+Ensemble Cellars,145 E. Curtis Avenue,Walla Walla,WA,99362,46.0881899,-118.27147,(509) 525-0231,http://www.ensemblecellars.com/,,http://www.facebook.com/pages/Ensemble-Cellars/262441909311
+FIGGINS,2900 Melrose St,Walla Walla,WA,99362,,,509-522-7808,http://www.figginswine.com/,,https://www.facebook.com/FIGGINSWinery
+Five Star Cellars,,Walla Walla,WA,99362,,,(509) 527-8400,http://www.fivestarcellars.com/,http://twitter.com/fivestarcellars,http://www.facebook.com/pages/Five-Star-Cellars/282447362770
+Fjellene Cellars,1050 Merlot Drive,Walla Walla,WA,99362,46.0109429,-118.34499,541-861-9359,https://fjellenecellars.com/,http://twitter.com/fjellenecellars,http://www.facebook.com/pages/Fjellene-Cellars/346355857566
+Fort Walla Walla Cellars,127 E. Main Street,Walla Walla,WA,99362,46.068852,-118.33688,(509) 520-1095,http://www.fortwallawallacellars.com/,http://twitter.com/FWW_Cellars,http://www.facebook.com/pages/Fort-Walla-Walla-Cellars/102060249005
+Foundry Vineyards,1111 Abadie Street,Walla Walla,WA,99362,46.062978,-118.35667,509-529-0736,http://www.foundryvineyards.com/,http://twitter.com/FoundryVineyard,http://www.facebook.com/pages/Foundry-Vineyards/198122406886154
+Garrison Creek Cellars,4153 Hood Road,Walla Walla,WA,99362,46.004229,-118.27465,509-525-7377,http://www.garrisoncreekcellars.com/,,http://www.facebook.com/pages/Garrison-Creek-Cellars/164945756899828
+Gifford Hirlinger,1450 Stateline Road,Walla Walla,WA,99362,46.0007099,-118.36545,(509) 301-9229,https://giffordhirlinger.com/,http://twitter.com/ghwine,http://www.facebook.com/pages/Gifford-Hirlinger/47968482846
+Glencorrie Winery,8052 Old Highway 12,Walla Walla ,WA ,99362,46.046982,-118.499691,509-525-2585 ,http://www.glencorrie.com/,http://twitter.com/Glencorrie,http://www.facebook.com/pages/Glencorrie-Winery/105593436153823
+Gramercy Cellars,635 N 13th Ave,Walla Walla,WA,99362,46.066977,-118.35692,509.876.2427 ,http://www.gramercycellars.com/,,http://www.facebook.com/GramercyCellarsFanPage
+Grantwood Winery,2428 Heritage Rd,Walla Walla,WA,99362,46.0678169,-118.39624,509-301-9546,,,
+Isenhower Cellars,3741 Pranger Road,Walla Walla,WA,99362,46.017529,-118.36217,509-526-7896,http://www.isenhowercellars.com/,http://twitter.com/isenhowervino,http://www.facebook.com/pages/Isenhower-Cellars/48195204780
+Kerloo Cellars,16 North 2nd Ave ,Walla Walla,WA,99362,46.067328,-118.33985,206-349-0641,https://kerloocellars.com/,,http://www.facebook.com/kerloocellars
+Kontos Cellars,594 Piper Avenue,Walla Walla,WA,99362,46.093052,-118.26316,509-386-4471,http://www.kontoscellars.com/,http://twitter.com/KontosCellars,http://www.facebook.com/pages/Kontos-Cellars/50546111164
+L?Ecole N§ 41,41 Lowden School Road,Lowden,WA,99360,46.057029,-118.58161,(509) 525-0940,http://www.lecole.com/,http://twitter.com/lecole41,http://www.facebook.com/lecole41
+Leonetti Cellar,1875 Foothills Lane,Walla Walla,WA,99362,46.0563989,-118.29612,(509) 525-1428,http://www.leonetticellar.com/,,
+Long Shadows Vintners,1604 Frenchtown Road,Walla Walla,WA,99362,46.0689089,-118.4906,(509) 526-0905,http://www.longshadows.com/,http://twitter.com/LongShadowsWine,http://www.facebook.com/pages/Long-Shadows-Vintners/117274751508
+Mackey Vineyards,14 North 2nd Avenue (Tasting Room),Walla Walla,WA,99362,46.0672659,-118.33983,(509) 240-9226,http://www.mackeyvineyards.com/,,http://www.facebook.com/pages/Mackey-Vineyards/117376591656374
+Mannina Cellars,760 C Street,Walla Walla,WA,99362,46.0876319,-118.27655,(509) 200-2366,http://www.manninacellars.com/,http://twitter.com/manninacellars,http://www.facebook.com/pages/Mannina-Cellars/60475646860
+Morrison Lane,1249 Lyday Lane,Walla Walla,WA,99362,46.006283,-118.352123,509-526-0229,http://www.morrisonlane.com/,,https://www.facebook.com/pages/Morrison-Lane-Vineyard-Winery/115334191935735
+Northstar Winery,1736 JB George Road,Walla Walla,WA,99362,46.011662,-118.36517,509-525-6100 ,http://www.northstarwinery.com/,http://twitter.com/northstarwinery,http://www.facebook.com/northstarwinery
+Otis Kenyon Wine,23 East Main Street,Walla Walla,WA,99362,46.067149,-118.33851,(509) 525-3505,http://www.otiskenyonwine.com/,http://twitter.com/#!/otiskenyonwine,http://www.facebook.com/pages/Otis-Kenyon-Wine/62550454512
+Pepper Bridge Winery,1704 JB George Road,Walla Walla,WA,99362,46.012334,-118.36988,(509) 525-6502,http://www.pepperbridge.com/,http://twitter.com/#!/PepperBridge,http://www.facebook.com/PepperBridge
+Rasa Vineyards,4122 Powerline Road,Walla Walla,WA,99362,46.0099549,-118.31498,(509)252-0900,http://www.rasavineyards.com/,https://twitter.com/#!/winerasa,http://www.facebook.com/#!/pages/Rasa-Vineyards/75055891391
+REININGER Winery,5858 Old Highway 12,Walla Walla,WA,99362,46.052354,-118.4597,(509) 522-1994,http://reiningerwinery.com/,http://twitter.com/#!/REININGERwinery,https://www.facebook.com/RWinery
+Reynvaan Family Vineyards,6309 Cottonwood Road,Walla Walla,WA,99362,46.01306,-118.22842,(509)525-3462,http://www.reynvaanfamilyvineyards.com/,,http://www.facebook.com/pages/Reynvaan-Family-Vineyards/134392233241245
+Saviah Cellars,1979 JB George Road,Walla Walla,WA,99362,46.0041,-118.38236,(509) 522-2181,http://www.saviahcellars.com/,http://twitter.com/saviah,http://www.facebook.com/saviahcellars
+Seven Hills Winery,212 N 3rd Avenue,Walla Walla,WA,,46.068589,-118.34198,(509) 529-7198,http://www.sevenhillswinery.com/,http://twitter.com/#!/7HillsWinery,http://www.facebook.com/pages/Seven-Hills-Winery/76193719188
+Sinclair Estate Vineyards,109-B East Main Street,Walla Walla,WA,99362,46.0684279,-118.33735,509-876-4300,http://www.SinclairEstateVineyards.com/,http://twitter.com/#!/SinclairEstate,http://www.facebook.com/pages/Sinclair-Estate-Vineyards/119042064773269
+Skylite Cellars,25 South Campbell Road ,Walla Walla,WA,99362,46.067136,-118.403324,(509) 529-8000,http://www.skylitecellars.com/,http://twitter.com/SkyliteCellars,https://www.facebook.com/skylitecellarswine
+Sleight of Hand Cellars,1959 JB George Road,Walla Walla ,WA,99362,46.004234,-118.380588,(509)525-3661,http://www.sofhcellars.com/default.aspx,,http://www.facebook.com/pages/Sleight-of-Hand-Cellars/50521891503
+Spofford Station Vineyards,85131 Elliot Road,Milton Freewater,OR,97862,,,(509)529-1398,,,
+Spring Valley Vineyard,18 North 2nd Avenue ,Walla Walla,WA,99362,46.067504,-118.339557,(509)525-1506,,,
+Tamarack Cellars,700 C Street ,Walla Walla,WA,99362,46.088165,-118.275991,(509)526-3533,http://tamarackcellars.com/,http://twitter.com/TamarackCellars,
+Tempus Cellars,124 West Boeing Avenue #3,Walla Walla,WA,99362,46.089093,-118.278417,(509)270-0298,http://www.tempuscellars.com/,,http://www.facebook.com/pages/Tempus-Cellars/100385271660
+Tero Estates Flying Trout Wines,6 West Rose Street ,Walla Walla,WA,99362,46.067801,-118.341422,(541)203-0020,http://www.teroestates.com/,,https://www.facebook.com/pages/Tero-Estates-and-Flying-Trout-Wines/123710751001213
+Tertulia Cellars,1564 Whiteley Road ,Walla Walla,WA,99362,46.0139349,-118.36031,(509)525-5700,http://www.tertuliacellars.com/,http://twitter.com/TertuliaCellars,https://www.facebook.com/tertuliacellars
+Three Rivers Winery,5641 Old Highway 12,Walla Walla,WA,99362,46.0515219,-118.46057,509-526-9463,http://www.threeriverswinery.com/,http://twitter.com/3riverswinery,
+Tranche Cellars,705 Berney Drive,Walla Walla,WA,99362,46.063011,-118.28425,(509)526-3500,http://www.tranchecellars.com/,http://twitter.com/TrancheCellars,
+Trio Vintners,6 West Rose Street,Walla Walla,WA,99362,46.067801,-118.34142,(509) 529-8746,http://www.triovintners.com/,,http://www.facebook.com/triovintners
+Trust Cellars,202 A Street,Walla Walla ,WA,99362,46.0898759,-118.27934,509-529-4511 ,http://www.trustcellars.com/,http://twitter.com/#!/TrustCellars,http://www.facebook.com/profile.php?id=1362703415
+Va Piano Vineyards,1793 JB George Road,Walla Walla,WA,99362,46.003999,-118.37112,(509)529-0900,http://www.vapianovineyards.com/,http://twitter.com/#!/vapianoestate,http://www.facebook.com/pages/Va-Piano-Vineyards/69874267078
+Walla Walla Vintners,225 Vineyard Lane,Walla Walla ,WA ,99362,46.0882149,-118.20394,509-525-4724 ,http://www.wallawallavintners.com/,,http://www.facebook.com/wallawallavintners
+Waterbrook Winery,10518 W. Highway 12,Walla Walla ,WA ,99362,46.055239,-118.55907,509-522-1262,http://www.waterbrook.com/,http://twitter.com/WaterbrookWine,http://www.facebook.com/waterbrookwinery
+Watermill Winery,235 E Broadway Avenue,Milton Freewater ,OR ,97862,45.937221,-118.39271,(541)938-5575 ,http://www.watermillwinery.com/,http://twitter.com/#!/WatermillWinery,http://www.facebook.com/watermillwine
+Woodward Canyon Winery,11920 W. Highway 12,Lowden,WA,99360,46.0563709,-118.58373,509-525-4129,https://www.woodwardcanyon.com/woodward.php,http://twitter.com/#!/woodwardcanyon,https://www.facebook.com/woodwardcanyonwinery
+Zerba Cellars,85530 HWY 11,Milton Freewater ,OR ,97862,45.993023,-118.38734,(541)938-9463 ,http://www.zerbacellars.com/,http://twitter.com/#!/ZerbaCellars,http://www.facebook.com/ZerbaCellars
