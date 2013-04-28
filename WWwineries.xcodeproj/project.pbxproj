@@ -26,6 +26,7 @@
 		5D29C2E61704EEE2002AFF0A /* WWwineriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D29C2E51704EEE2002AFF0A /* WWwineriesTests.m */; };
 		5D29C2F01704F09E002AFF0A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D29C2EF1704F09E002AFF0A /* MapKit.framework */; };
 		5D29C2F21704F68D002AFF0A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D29C2F11704F68D002AFF0A /* CoreData.framework */; };
+		5D4CAE6B172604FE0091E56A /* WineryAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4CAE6A172604FE0091E56A /* WineryAnnotation.m */; };
 		5D6541ED1719292100C072F3 /* RXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6541EC1719292100C072F3 /* RXMLElement.m */; };
 		5D6541EE1719292100C072F3 /* RXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6541EC1719292100C072F3 /* RXMLElement.m */; };
 		5D6541F017205D3D00C072F3 /* winerydb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5D6541EF17205D3D00C072F3 /* winerydb.xml */; };
@@ -71,6 +72,8 @@
 		5D29C2EF1704F09E002AFF0A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		5D29C2F11704F68D002AFF0A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5D29C2F31704F69D002AFF0A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		5D4CAE69172604FE0091E56A /* WineryAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WineryAnnotation.h; sourceTree = "<group>"; };
+		5D4CAE6A172604FE0091E56A /* WineryAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WineryAnnotation.m; sourceTree = "<group>"; };
 		5D6541EB1719292100C072F3 /* RXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RXMLElement.h; path = RaptureXML/RXMLElement.h; sourceTree = "<group>"; };
 		5D6541EC1719292100C072F3 /* RXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RXMLElement.m; path = RaptureXML/RXMLElement.m; sourceTree = "<group>"; };
 		5D6541EF17205D3D00C072F3 /* winerydb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = winerydb.xml; sourceTree = "<group>"; };
@@ -154,6 +157,8 @@
 				5D29C2CF1704EEE2002AFF0A /* ViewController.h */,
 				5D29C2D01704EEE2002AFF0A /* ViewController.m */,
 				5D29C2B81704EEE2002AFF0A /* Supporting Files */,
+				5D4CAE69172604FE0091E56A /* WineryAnnotation.h */,
+				5D4CAE6A172604FE0091E56A /* WineryAnnotation.m */,
 			);
 			path = WWwineries;
 			sourceTree = "<group>";
@@ -308,6 +313,7 @@
 				5D29C2C21704EEE2002AFF0A /* AppDelegate.m in Sources */,
 				5D29C2D11704EEE2002AFF0A /* ViewController.m in Sources */,
 				5D6541ED1719292100C072F3 /* RXMLElement.m in Sources */,
+				5D4CAE6B172604FE0091E56A /* WineryAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,66 +7,93 @@
 //
 
 #import "ViewController.h"
+#import "WineryAnnotation.h"
 #define METERS_PER_MILE 1609.344
 
-@interface ViewController ()
+@implementation ViewController;
+@synthesize mapView;
 
-@end
+//@implementation UIViewController
 
-@implementation ViewController
-
-- (void)viewWillAppear:(BOOL)animated {
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    //Map prefs
     CLLocationCoordinate2D zoomLocation;
     zoomLocation.latitude = 46.065;
     zoomLocation.longitude= -118.330278;
     MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 14*METERS_PER_MILE, 14*METERS_PER_MILE);
-    [_mapView setRegion:viewRegion animated:YES];
+    [mapView setRegion:viewRegion animated:YES];
+    [mapView setMapType:MKMapTypeStandard];
+    [mapView setZoomEnabled:YES];
+    [mapView setScrollEnabled:YES];
+    [mapView setDelegate:self];
+    
+    //XML Loads
     RXMLElement *rootXML = [RXMLElement elementFromXMLFile:@"winerydb.xml"];
     NSArray *wineries = [rootXML children:@"Winery"];
     
     
     for (RXMLElement* winery in wineries){
-        //NSLog(@"%@", winery.text);
     
         RXMLElement *wineryname = [winery child:@"Winery_Name"];
         RXMLElement *lat = [winery child:@"Latitude"];
         double latitude = lat.textAsDouble;
         RXMLElement *lon = [winery child:@"Longitude"];
         double longitude = lon.textAsDouble;
-        //NSString *address = ([winery child:@"Address"]).text;
-        //address = [address stringByAppendingString:@"\n"];
-        //address = [address stringByAppendingString:([wineries[5] child:@"City"]).text];
-        //address = [address stringByAppendingString:@", "];
-        //address = [address stringByAppendingString:([wineries[5] child:@"State"]).text];
-        //address = [address stringByAppendingString:([wineries[5] child:@"Zip"]).text];
-    
-        CLLocationCoordinate2D coords;
-        coords.latitude = latitude;
-        coords.longitude = longitude;
-    
-        //NSDictionary *addressdict = @{@"kABPersonAddressStreetKey" : address, @"kABPersonAddressCityKey" : city, @"kABPersonAddressStateKey" : state, @"kABPersonAddressZIPKey" : zip};
-    
-        MKPointAnnotation *placemark = [[MKPointAnnotation alloc] init];
-        placemark.coordinate = coords;
+        
+        MKCoordinateRegion pin = { {0.0, 0.0} , {0.0, 0.0} };
+        pin.center.latitude = latitude;
+        pin.center.longitude = longitude;
+        pin.span.longitudeDelta = 0.02f;
+        pin.span.latitudeDelta = 0.02f;
+        
+        NSUInteger index = (NSUInteger)[wineries indexOfObject:winery];
+        
+        
+        WineryAnnotation *placemark = [[WineryAnnotation alloc] init];
+        placemark.coordinate = pin.center;
         placemark.title = wineryname.text;
-        
-        NSString *name = wineryname.text;
-        
-        MKAnnotationView *test = [[MKAnnotationView alloc] initWithAnnotation:placemark reuseIdentifier:name];
-        test.canShowCallout = YES;
-        test.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-        
+        placemark.idnumber = index;
     
-        [_mapView addAnnotation:placemark];
+        [mapView addAnnotation:placemark];
     }
-    
+
 }
 
+-(MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation{
+    MKPinAnnotationView *MyPin=[[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:[annotation title]];
+    MyPin.pinColor = MKPinAnnotationColorGreen;
+    
+    //NSLog(@"%@", );
+    
+    UIButton *advertButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+    [advertButton addTarget:self action:@selector(button:) forControlEvents:UIControlEventTouchUpInside];
+    
+    MyPin.rightCalloutAccessoryView = advertButton;
+    MyPin.draggable = NO;
+    MyPin.highlighted = YES;
+    MyPin.animatesDrop=TRUE;
+    MyPin.canShowCallout = YES;
+    
+    return MyPin;
+}
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+-(void)button:(id)sender {
+    
+    //NSLog(@"Button action");
+    NSArray *selectedpins = [mapView selectedAnnotations];
+    WineryAnnotation *currpin = selectedpins[0];
+    //NSLog(@"%@",currpin.title);
+    NSUInteger indexnum = currpin.idnumber;
+    NSLog(@"%lu", (unsigned long)indexnum);
+    RXMLElement *rootXML = [RXMLElement elementFromXMLFile:@"winerydb.xml"];
+    NSArray *wineries = [rootXML children:@"Winery"];
+    RXMLElement *test = wineries[indexnum];
+    NSString *title = [test child:@"Winery_Name"].text;
+    NSLog(@"%@",title);
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

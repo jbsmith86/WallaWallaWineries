@@ -8,11 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
-#import <sqlite3.h>
 #import "RXMLElement.h"
 #import <AddressBook/AddressBook.h>
 
-@interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet MKMapView *mapView;
+//@interface ViewController : UIViewController
+//@property (weak, nonatomic) IBOutlet MKMapView *mapView;
+
+@interface ViewController : UIViewController <MKMapViewDelegate> {
+    
+    IBOutlet MKMapView *mapView;
+    
+}
+
+@property(nonatomic, retain) IBOutlet MKMapView *mapView;
 
 @end
