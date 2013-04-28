@@ -10,6 +10,7 @@
 #import <MapKit/MapKit.h>
 #import "RXMLElement.h"
 #import <AddressBook/AddressBook.h>
+#import "WineryAddressViewController.h"
 
 //@interface ViewController : UIViewController
 //@property (weak, nonatomic) IBOutlet MKMapView *mapView;
@@ -21,5 +22,4 @@
 }
 
 @property(nonatomic, retain) IBOutlet MKMapView *mapView;
-
 @end

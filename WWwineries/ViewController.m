@@ -19,6 +19,7 @@
     [super viewDidLoad];
     
     //Map prefs
+    mapView.showsUserLocation = YES;
     CLLocationCoordinate2D zoomLocation;
     zoomLocation.latitude = 46.065;
     zoomLocation.longitude= -118.330278;
@@ -28,6 +29,7 @@
     [mapView setZoomEnabled:YES];
     [mapView setScrollEnabled:YES];
     [mapView setDelegate:self];
+    
     
     //XML Loads
     RXMLElement *rootXML = [RXMLElement elementFromXMLFile:@"winerydb.xml"];
@@ -62,6 +64,10 @@
 }
 
 -(MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation{
+    if( [[annotation title] isEqualToString:@"Current Location"] ) {
+        return nil;
+    }
+    
     MKPinAnnotationView *MyPin=[[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:[annotation title]];
     MyPin.pinColor = MKPinAnnotationColorGreen;
     
@@ -86,13 +92,22 @@
     WineryAnnotation *currpin = selectedpins[0];
     //NSLog(@"%@",currpin.title);
     NSUInteger indexnum = currpin.idnumber;
-    NSLog(@"%lu", (unsigned long)indexnum);
+    //NSLog(@"%lu", (unsigned long)indexnum);
     RXMLElement *rootXML = [RXMLElement elementFromXMLFile:@"winerydb.xml"];
     NSArray *wineries = [rootXML children:@"Winery"];
     RXMLElement *test = wineries[indexnum];
     NSString *title = [test child:@"Winery_Name"].text;
-    NSLog(@"%@",title);
-    
+    //NSLog(@"%@",title);
+    WineryAddressViewController *addressview = [[WineryAddressViewController alloc]init];
+    [self presentViewController:addressview animated:YES completion:nil];
+    addressview.wineryname.text = title;
+    addressview.address.text = [test child:@"Address"].text;
+    addressview.city.text = [test child:@"City"].text;
+    addressview.state.text = [test child:@"State"].text;
+    addressview.zip.text = [test child:@"Zip"].text;
+    addressview.phone.text = [test child:@"Phone_Number"].text;
+    CLLocationCoordinate2D tempcor = currpin.coordinate;
+    addressview.winerylocation = &(tempcor);
     
 }
 
