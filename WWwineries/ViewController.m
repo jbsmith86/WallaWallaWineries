@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "WineryAnnotation.h"
+#import "WineryDatabase.h"
+
 #define METERS_PER_MILE 1609.344
 
 @implementation ViewController;
@@ -31,12 +33,7 @@
     [mapView setDelegate:self];
     
     
-    //XML Loads
-    RXMLElement *rootXML = [RXMLElement elementFromXMLFile:@"winerydb.xml"];
-    NSArray *wineries = [rootXML children:@"Winery"];
-    
-    
-    for (RXMLElement* winery in wineries){
+    for (RXMLElement* winery in [[WineryDatabase Database]wineries]){
     
         RXMLElement *wineryname = [winery child:@"Winery_Name"];
         RXMLElement *lat = [winery child:@"Latitude"];
@@ -50,7 +47,7 @@
         pin.span.longitudeDelta = 0.02f;
         pin.span.latitudeDelta = 0.02f;
         
-        NSUInteger index = (NSUInteger)[wineries indexOfObject:winery];
+        NSUInteger index = (NSUInteger)[[[WineryDatabase Database]wineries] indexOfObject:winery];
         
         
         WineryAnnotation *placemark = [[WineryAnnotation alloc] init];
@@ -87,17 +84,11 @@
 
 -(void)button:(id)sender {
     
-    //NSLog(@"Button action");
     NSArray *selectedpins = [mapView selectedAnnotations];
     WineryAnnotation *currpin = selectedpins[0];
-    //NSLog(@"%@",currpin.title);
     NSUInteger indexnum = currpin.idnumber;
-    //NSLog(@"%lu", (unsigned long)indexnum);
-    RXMLElement *rootXML = [RXMLElement elementFromXMLFile:@"winerydb.xml"];
-    NSArray *wineries = [rootXML children:@"Winery"];
-    RXMLElement *test = wineries[indexnum];
+    RXMLElement *test = [[WineryDatabase Database]wineries][indexnum];
     NSString *title = [test child:@"Winery_Name"].text;
-    //NSLog(@"%@",title);
     WineryAddressViewController *addressview = [[WineryAddressViewController alloc]init];
     [self presentViewController:addressview animated:YES completion:nil];
     addressview.wineryname.text = title;

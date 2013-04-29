@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5D0E1E37172D7E52006C0D33 /* WineryAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0E1E35172D7E52006C0D33 /* WineryAddressViewController.m */; };
 		5D0E1E38172D7E52006C0D33 /* WineryAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D0E1E36172D7E52006C0D33 /* WineryAddressViewController.xib */; };
+		5D0E1E3B172EB1EC006C0D33 /* WineryDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0E1E3A172EB1EC006C0D33 /* WineryDatabase.m */; };
 		5D29C2B21704EEE2002AFF0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D29C2B11704EEE2002AFF0A /* UIKit.framework */; };
 		5D29C2B41704EEE2002AFF0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D29C2B31704EEE2002AFF0A /* Foundation.framework */; };
 		5D29C2B61704EEE2002AFF0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D29C2B51704EEE2002AFF0A /* CoreGraphics.framework */; };
@@ -51,6 +52,8 @@
 		5D0E1E34172D7E52006C0D33 /* WineryAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WineryAddressViewController.h; sourceTree = "<group>"; };
 		5D0E1E35172D7E52006C0D33 /* WineryAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WineryAddressViewController.m; sourceTree = "<group>"; };
 		5D0E1E36172D7E52006C0D33 /* WineryAddressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WineryAddressViewController.xib; sourceTree = "<group>"; };
+		5D0E1E39172EB1EC006C0D33 /* WineryDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WineryDatabase.h; sourceTree = "<group>"; };
+		5D0E1E3A172EB1EC006C0D33 /* WineryDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WineryDatabase.m; sourceTree = "<group>"; };
 		5D29C2AE1704EEE2002AFF0A /* WWwineries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWwineries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D29C2B11704EEE2002AFF0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5D29C2B31704EEE2002AFF0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -164,6 +167,8 @@
 				5D29C2CC1704EEE2002AFF0A /* MainStoryboard_iPad.storyboard */,
 				5D29C2CF1704EEE2002AFF0A /* ViewController.h */,
 				5D29C2D01704EEE2002AFF0A /* ViewController.m */,
+				5D0E1E39172EB1EC006C0D33 /* WineryDatabase.h */,
+				5D0E1E3A172EB1EC006C0D33 /* WineryDatabase.m */,
 				5D29C2B81704EEE2002AFF0A /* Supporting Files */,
 				5D4CAE69172604FE0091E56A /* WineryAnnotation.h */,
 				5D4CAE6A172604FE0091E56A /* WineryAnnotation.m */,
@@ -324,6 +329,7 @@
 				5D6541ED1719292100C072F3 /* RXMLElement.m in Sources */,
 				5D4CAE6B172604FE0091E56A /* WineryAnnotation.m in Sources */,
 				5D0E1E37172D7E52006C0D33 /* WineryAddressViewController.m in Sources */,
+				5D0E1E3B172EB1EC006C0D33 /* WineryDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
