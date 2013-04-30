@@ -14,7 +14,6 @@
 @property (nonatomic, strong) RXMLElement *xmldatabase;
 @property (nonatomic, strong) NSArray *wineries;
 
-
 +(WineryDatabase *) Database;
 
 @end

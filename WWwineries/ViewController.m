@@ -19,22 +19,31 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    //Map prefs
-    mapView.showsUserLocation = YES;
-    CLLocationCoordinate2D zoomLocation;
-    zoomLocation.latitude = 46.065;
-    zoomLocation.longitude= -118.330278;
-    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 14*METERS_PER_MILE, 14*METERS_PER_MILE);
-    [mapView setRegion:viewRegion animated:YES];
-    [mapView setMapType:MKMapTypeStandard];
-    [mapView setZoomEnabled:YES];
-    [mapView setScrollEnabled:YES];
-    [mapView setDelegate:self];
-    
-    
-    for (RXMLElement* winery in [[WineryDatabase Database]wineries]){
-    
+    [self setMapPreferences];
+    [self clearMapAndPlaceAnnotations];
+}
+
+-(void)setMapPreferences{
+        mapView.showsUserLocation = YES;
+        CLLocationCoordinate2D zoomLocation;
+        zoomLocation.latitude = 46.065;
+        zoomLocation.longitude= -118.330278;
+        MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 14*METERS_PER_MILE, 14*METERS_PER_MILE);
+        [mapView setRegion:viewRegion animated:YES];
+        [mapView setMapType:MKMapTypeStandard];
+        [mapView setZoomEnabled:YES];
+        [mapView setScrollEnabled:YES];
+        [mapView setDelegate:self];
+        
+}
+
+-(void)clearMapAndPlaceAnnotations {
+    [mapView removeAnnotations:mapView.annotations];
+    if ( [mapView userLocation] != nil ) {
+        [mapView addAnnotation:[mapView userLocation]]; // will cause user location pin to blink
+    }
+    for (RXMLElement* winery in [[WineryDatabase Database]wineries]) {
+        
         RXMLElement *wineryname = [winery child:@"Winery_Name"];
         RXMLElement *lat = [winery child:@"Latitude"];
         double latitude = lat.textAsDouble;
@@ -54,10 +63,9 @@
         placemark.coordinate = pin.center;
         placemark.title = wineryname.text;
         placemark.idnumber = index;
-    
+        
         [mapView addAnnotation:placemark];
     }
-
 }
 
 -(MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation{

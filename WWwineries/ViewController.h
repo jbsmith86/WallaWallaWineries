@@ -20,5 +20,8 @@
     
 }
 
+-(void)setMapPreferences;
+-(void)clearMapAndPlaceAnnotations;
+
 @property(nonatomic, retain) IBOutlet MKMapView *mapView;
 @end
