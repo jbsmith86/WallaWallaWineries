@@ -8,10 +8,7 @@
 
 #import "WineryAddressViewController.h"
 #import "ViewController.h"
-
-@interface WineryAddressViewController ()
-
-@end
+#import "WineryAnnotation.h"
 
 @implementation WineryAddressViewController
 @synthesize back, wineryname, address, city, state, zip, phone, winerylocation;
@@ -27,7 +24,20 @@
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:telurl]];
 }
 
-- (IBAction)getdirections:(id)sender {
+
+- (IBAction)directions:(id)sender {
+    //ViewController *test = [[UIApplication sharedApplication] keyWindow].rootViewController;
+    //CLLocationCoordinate2D *usercoord = test.currloc;
+    
+    //WineryAnnotation *origin = [[WineryAnnotation alloc]init];
+    //NSLog(@"%f", usercoord->latitude);
+    //NSLog(@"%f", usercoord->longitude);
+    //[objMapView addAnnotation:origin];
+}
+
+
+- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
+    [locations lastObject];
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil

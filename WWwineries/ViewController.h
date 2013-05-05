@@ -24,4 +24,5 @@
 -(void)clearMapAndPlaceAnnotations;
 
 @property(nonatomic, retain) IBOutlet MKMapView *mapView;
+@property(nonatomic) CLLocationCoordinate2D *currloc;
 @end

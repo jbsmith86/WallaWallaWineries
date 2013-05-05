@@ -13,7 +13,7 @@
 #define METERS_PER_MILE 1609.344
 
 @implementation ViewController;
-@synthesize mapView;
+@synthesize mapView, currloc;
 
 //@implementation UIViewController
 
@@ -70,6 +70,9 @@
 
 -(MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation{
     if( [[annotation title] isEqualToString:@"Current Location"] ) {
+        sleep(5);
+        CLLocationCoordinate2D temphold = [annotation coordinate];
+        self.currloc = &(temphold);
         return nil;
     }
     
@@ -101,12 +104,20 @@
     [self presentViewController:addressview animated:YES completion:nil];
     addressview.wineryname.text = title;
     addressview.address.text = [test child:@"Address"].text;
-    addressview.city.text = [test child:@"City"].text;
-    addressview.state.text = [test child:@"State"].text;
-    addressview.zip.text = [test child:@"Zip"].text;
+    NSString *combinedcitystring = [test child:@"City"].text;
+    combinedcitystring = [combinedcitystring stringByAppendingString:@", "];
+    combinedcitystring = [combinedcitystring stringByAppendingString:[test child:@"State"].text];
+    combinedcitystring = [combinedcitystring stringByAppendingString:@" "];
+    combinedcitystring = [combinedcitystring stringByAppendingString:[test child:@"Zip"].text];
+    addressview.citystatezip.text = combinedcitystring;
+    addressview.city = [test child:@"City"].text;
+    addressview.state = [test child:@"State"].text;
+    addressview.zip = [test child:@"Zip"].text;
     addressview.phone.text = [test child:@"Phone_Number"].text;
     CLLocationCoordinate2D tempcor = currpin.coordinate;
     addressview.winerylocation = &(tempcor);
+    [self performSegueWithIdentifier:@"Show Address" sender:self];
+    
     
 }
 
