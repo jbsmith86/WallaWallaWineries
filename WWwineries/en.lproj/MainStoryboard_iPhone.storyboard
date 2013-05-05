@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Gej-rJ-Shr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Gej-rJ-Shr">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -13,6 +13,9 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="DbI-0r-Lsk">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="504" id="Ua1-W9-3cK"/>
+                                </constraints>
                                 <connections>
                                     <outlet property="delegate" destination="3" id="6KU-qU-bjX"/>
                                 </connections>
@@ -22,49 +25,75 @@
                         <constraints>
                             <constraint firstItem="DbI-0r-Lsk" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="FAh-Sw-Z1Y"/>
                             <constraint firstItem="DbI-0r-Lsk" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="Kd0-Ew-aLC"/>
-                            <constraint firstItem="DbI-0r-Lsk" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="Tn2-XL-Vh9"/>
-                            <constraint firstItem="DbI-0r-Lsk" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="kJo-2D-o6J"/>
+                            <constraint firstItem="DbI-0r-Lsk" firstAttribute="top" secondItem="3" secondAttribute="top" constant="-2" id="bYO-uP-zSm"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="N0N-LL-Ygu"/>
                     <connections>
                         <outlet property="mapView" destination="DbI-0r-Lsk" id="Dij-Kd-Un9"/>
-                        <segue destination="rev-Kd-dvT" kind="push" id="efz-Qj-bEr"/>
+                        <segue destination="RRu-Ru-ngt" kind="push" identifier="ShowAddress" id="rj1-hM-0Cb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="739" y="-45"/>
         </scene>
-        <!--Table View Controller-->
-        <scene sceneID="ilx-lD-cH8">
+        <!--Winery Address View Controller - Winery Info-->
+        <scene sceneID="9m4-FJ-xPf">
             <objects>
-                <tableViewController id="rev-Kd-dvT" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="b8c-ZU-BwY">
+                <tableViewController id="RRu-Ru-ngt" customClass="WineryAddressViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="YHY-Zk-4WT">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="VBb-02-haq">
-                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </view>
-                            </tableViewCell>
-                        </prototypes>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection id="wpQ-Qq-Nb7">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Zsi-OZ-usb">
+                                        <rect key="frame" x="0.0" y="10" width="320" height="45"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="10" y="1" width="300" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="130" id="kFZ-tp-qp9">
+                                        <rect key="frame" x="0.0" y="55" width="320" height="130"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="10" y="0.0" width="300" height="129"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="pvm-5j-Xty">
+                                        <rect key="frame" x="0.0" y="185" width="320" height="45"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="10" y="0.0" width="300" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
                         <connections>
-                            <outlet property="dataSource" destination="rev-Kd-dvT" id="Nou-VO-IeA"/>
-                            <outlet property="delegate" destination="rev-Kd-dvT" id="LH1-S0-3gf"/>
+                            <outlet property="dataSource" destination="RRu-Ru-ngt" id="JgX-O2-Zt5"/>
+                            <outlet property="delegate" destination="RRu-Ru-ngt" id="1xA-QG-uxm"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="8Fe-xq-YiV"/>
+                    <navigationItem key="navigationItem" title="Winery Info" id="z2u-R2-RfG"/>
+                    <connections>
+                        <outlet property="addresscitystatezip" destination="kFZ-tp-qp9" id="0yy-y9-iCk"/>
+                        <outlet property="phone" destination="pvm-5j-Xty" id="JIW-OQ-qN5"/>
+                        <outlet property="wineryname" destination="Zsi-OZ-usb" id="fug-C4-67U"/>
+                    </connections>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lm7-Ca-ZB0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XdL-Oi-P9Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1251" y="-42"/>
+            <point key="canvasLocation" x="1196" y="-47"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="g9y-4S-9B4">
@@ -93,6 +122,16 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
+            </relationships>
+        </class>
+        <class className="WineryAddressViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WineryAddressViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="callwinery:"/>
+                <relationship kind="action" name="directions:"/>
+                <relationship kind="outlet" name="addresscitystatezip" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="phone" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="wineryname" candidateClass="UITableViewCell"/>
             </relationships>
         </class>
     </classes>

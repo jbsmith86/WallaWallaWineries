@@ -94,31 +94,35 @@
 }
 
 -(void)button:(id)sender {
-    
-    NSArray *selectedpins = [mapView selectedAnnotations];
-    WineryAnnotation *currpin = selectedpins[0];
-    NSUInteger indexnum = currpin.idnumber;
-    RXMLElement *test = [[WineryDatabase Database]wineries][indexnum];
-    NSString *title = [test child:@"Winery_Name"].text;
-    WineryAddressViewController *addressview = [[WineryAddressViewController alloc]init];
-    [self presentViewController:addressview animated:YES completion:nil];
-    addressview.wineryname.text = title;
-    addressview.address.text = [test child:@"Address"].text;
-    NSString *combinedcitystring = [test child:@"City"].text;
-    combinedcitystring = [combinedcitystring stringByAppendingString:@", "];
-    combinedcitystring = [combinedcitystring stringByAppendingString:[test child:@"State"].text];
-    combinedcitystring = [combinedcitystring stringByAppendingString:@" "];
-    combinedcitystring = [combinedcitystring stringByAppendingString:[test child:@"Zip"].text];
-    addressview.citystatezip.text = combinedcitystring;
-    addressview.city = [test child:@"City"].text;
-    addressview.state = [test child:@"State"].text;
-    addressview.zip = [test child:@"Zip"].text;
-    addressview.phone.text = [test child:@"Phone_Number"].text;
-    CLLocationCoordinate2D tempcor = currpin.coordinate;
-    addressview.winerylocation = &(tempcor);
-    [self performSegueWithIdentifier:@"Show Address" sender:self];
-    
-    
+    [self performSegueWithIdentifier:@"ShowAddress" sender:self];
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"ShowAddress"]){
+        NSArray *selectedpins = [mapView selectedAnnotations];
+        WineryAnnotation *currpin = selectedpins[0];
+        NSUInteger indexnum = currpin.idnumber;
+        RXMLElement *test = [[WineryDatabase Database]wineries][indexnum];
+        NSString *title = [test child:@"Winery_Name"].text;
+        WineryAddressViewController *addressview = [segue destinationViewController];
+        [self presentViewController:addressview animated:YES completion:nil];
+        addressview.wineryname.text = title;
+        addressview.address = [test child:@"Address"].text;
+        NSString *combinedcitystring = [NSString stringWithFormat:@"%@\n",[test child:@"Address"].text];
+        combinedcitystring = [combinedcitystring stringByAppendingString:[test child:@"City"].text];
+        combinedcitystring = [combinedcitystring stringByAppendingString:@", "];
+        combinedcitystring = [combinedcitystring stringByAppendingString:[test child:@"State"].text];
+        combinedcitystring = [combinedcitystring stringByAppendingString:@" "];
+        combinedcitystring = [combinedcitystring stringByAppendingString:[test child:@"Zip"].text];
+        addressview.addresscitystatezip.text = combinedcitystring;
+        addressview.city = [test child:@"City"].text;
+        addressview.state = [test child:@"State"].text;
+        addressview.zip = [test child:@"Zip"].text;
+        addressview.phone.text = [test child:@"Phone_Number"].text;
+        CLLocationCoordinate2D tempcor = currpin.coordinate;
+        addressview.winerylocation = &(tempcor);
+    }
 }
 
 - (void)didReceiveMemoryWarning

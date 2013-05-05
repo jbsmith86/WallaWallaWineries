@@ -11,11 +11,7 @@
 #import "WineryAnnotation.h"
 
 @implementation WineryAddressViewController
-@synthesize back, wineryname, address, city, state, zip, phone, winerylocation;
 
-- (IBAction)back:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
 
 - (IBAction)callwinery:(id)sender {
     NSString *prefix = @"telprompt://";
